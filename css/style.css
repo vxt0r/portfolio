@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+  --cinza : #9da898;
+  --cinzaAzulado: #73808c;
+  --rosaClaro: #d69fad;
+  --pretoFosco: #151b1f;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: var(--cinza);
+    background-color: var(--cinzaAzulado);
+}
+.container{
+    width: 70%;
+    margin: auto auto;
+    padding: 1em;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+a,li{
+    color: var(--pretoFosco);
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: var(--rosaClaro)
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 6em;
+  font-size: 1.25em;
+}
+.foto{
+  width: 130px;
+  height: 150px;
+  border: 3px solid var(--cinza);
+  border-radius: 10px;
+}
+/* Main */
+main{
+  min-height: 150px;
+  margin-top: 5em;
+  padding: 0.5em 1em;
+  background-color: var(--pretoFosco);
+  border-radius: 8px;
+}
+main a{
+  color: var(--cinza);
+}
+
+/* Sobre */
+.texto-sobre{
+
+}
+/* Projetos */
+.projetos{
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1.5em 2em;
+
+  padding: 1.5em;
+}
+/* Contato */
+.contato{
+  width: 80%;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em auto;
+}
