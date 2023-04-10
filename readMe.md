@@ -1,1 +1,1 @@
-- Código do css pode ser refatorado
+- Portfólio em HTML e CSS
