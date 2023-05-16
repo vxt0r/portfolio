@@ -149,15 +149,21 @@ footer span{
 }
 
 @media (max-width:620px){
+  body{
+    font-size: 1.5em;
+  }
   .foto{
     width: auto;
   }
   .sobre{
     width: 95%;
   }
+  .projetos{
+   min-height: auto;
+  }
 }
 
-@media (max-width: 420px){
+@media (max-width:420px){
   .home-info{
     margin: 1em auto;
   }
