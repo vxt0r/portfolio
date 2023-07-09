@@ -17,14 +17,14 @@ const projetos = [
         titulo: "Carrinho de Compras",
         tecnologias: "PHP, MySQL, HTML e CSS",
         descricao: "A aplicação simula um e-commerce, o usuário faz um cadastro e login, podendo adicionar ou remover os produtos no seu carrinho e definir detalhes da compra.",
-        linkVideo : "https://www.youtube.com/embed/FpLqCVHJt70",
+        linkVideo : "https://www.youtube.com/watch?v=FpLqCVHJt70",
         linkCodigo : "https://github.com/vxt0r/carrinho-compras/commit/be9d53df615a6c5d13fe2e6e24cbacff9385209b"
     },
     {
         titulo: "Banco Digital",
         tecnologias: "PHP, MySQL, HTML e CSS",
         descricao: "A aplicação simula uma conta em um banco digital, o usuário ao criar um cadastro recebe também uma conta, onde pode realizar saques e depósitos.",
-        linkVideo : "https://www.youtube.com/embed/EUPsIAVk10A",
+        linkVideo : "https://www.youtube.com/watch?v=EUPsIAVk10A",
         linkCodigo : "https://github.com/vxt0r/banco-digital/commit/4aabdf0bf5c296200b0d0bd37196f1a02f3eb7ac"
     },
     {
@@ -45,21 +45,21 @@ const projetos = [
         titulo: "Quadros",
         tecnologias: "HTML, CSS e Javascript",
         descricao: "Uma aplicação sobre quadros de arte abstrata, ao clicar em um quadro aparecem informações sobre o mesmo.",
-        linkVideo : "https://www.youtube.com/embed/b7qaIFiAXR4",
+        linkVideo : "https://www.youtube.com/watch?v=b7qaIFiAXR4",
         linkCodigo : "https://github.com/vxt0r/quadros"
     },
     {
         titulo: "Quiz",
         tecnologias: "HTML, CSS e Javascript",
         descricao: "Um quiz sobre capitais de países, ao responder uma pergunta, a resposta fica verde quando certa e vermelha quando errada.",
-        linkVideo : "https://www.youtube.com/embed/iicZOevi9G8",
+        linkVideo : "https://www.youtube.com/watch?v=iicZOevi9G8",
         linkCodigo : "https://github.com/vxt0r/quiz"
     },
     {
         titulo: "Jogo das Cores",
         tecnologias: "HTML, CSS e Javascript",
         descricao: "O usuário deve escolher a cor à que se refere o RGB na parte superior, entre as 4 opções.",
-        linkVideo : "https://www.youtube.com/embed/6KJnbTewN5c",
+        linkVideo : "https://www.youtube.com/watch?v=6KJnbTewN5c",
         linkCodigo : "https://github.com/vxt0r/jogo-das-cores"
     },
     {
