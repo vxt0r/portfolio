@@ -1,5 +1,33 @@
 const projetos = [
     {
+        titulo: "Gerenciador de consultas",
+        tecnologias: "PHP, MySQL, HTML e CSS",
+        descricao: "A aplicação simula um sistema de controle de consultas de um médico, com registro de consulta e envio de email aos pacientes.",
+        linkVideo : "https://youtu.be/qY9bIYvgSFw",
+        linkCodigo : "https://github.com/vxt0r/consultas"
+    },
+    {
+        titulo: "Gerador de Relatório",
+        tecnologias: "PHP, MySQL, HTML e CSS",
+        descricao: "O usuário pode enviar uma planilha do Excel, dentro de certos padrões, e receber um relatório em PDF sobre a planilha enviada.",
+        linkVideo : "https://youtu.be/LlCfcsOQoxA",
+        linkCodigo : "https://github.com/vxt0r/relatorio"
+    },
+    {
+        titulo: "Carrinho de Compras ",
+        tecnologias: "Laravel e Bootstrap",
+        descricao: "A aplicação simula um e-commerce, o usuário faz um cadastro e login, podendo adicionar ou remover os produtos no seu carrinho e definir detalhes da compra.",
+        linkVideo : "https://www.youtube.com/watch?v=rFioLymjRXo",
+        linkCodigo : "https://github.com/vxt0r/carrinho-compras"
+    },
+    {
+        titulo: "Banco Digital ",
+        tecnologias: "Laravel e Bootstrap",
+        descricao: "A aplicação simula uma conta em um banco digital, o usuário ao criar um cadastro recebe também uma conta, onde pode realizar saques e depósitos.",
+        linkVideo : "https://www.youtube.com/watch?v=72mhF3BUlOQ",
+        linkCodigo : "https://github.com/vxt0r/banco-digital"
+    },
+    {
         titulo: "Álbum de Figurinhas Digital",
         tecnologias: "Laravel",
         descricao: "O usuário pode inserir, remover e atualizar informações e imagens sobre algum jogador da NBA.",
@@ -7,39 +35,11 @@ const projetos = [
         linkCodigo : "https://github.com/vxt0r/figurinhas-digital"
     },
     {
-        titulo: "Lista de Tarefas 2",
+        titulo: "Lista de Tarefas",
         tecnologias: "Laravel",
         descricao: "O usuário digita uma tarefa e escolhe os dias da semana em que pretende realizar, assim a tarefa aparece no card referente aos dias escolhidos.",
         linkVideo : "https://www.youtube.com/watch?v=fCGgK2GL0us",
         linkCodigo : "https://github.com/vxt0r/lista-tarefas-dias"
-    },
-    {
-        titulo: "Carrinho de Compras",
-        tecnologias: "PHP, MySQL, HTML e CSS",
-        descricao: "A aplicação simula um e-commerce, o usuário faz um cadastro e login, podendo adicionar ou remover os produtos no seu carrinho e definir detalhes da compra.",
-        linkVideo : "https://www.youtube.com/watch?v=FpLqCVHJt70",
-        linkCodigo : "https://github.com/vxt0r/carrinho-compras/commit/be9d53df615a6c5d13fe2e6e24cbacff9385209b"
-    },
-    {
-        titulo: "Banco Digital",
-        tecnologias: "PHP, MySQL, HTML e CSS",
-        descricao: "A aplicação simula uma conta em um banco digital, o usuário ao criar um cadastro recebe também uma conta, onde pode realizar saques e depósitos.",
-        linkVideo : "https://www.youtube.com/watch?v=EUPsIAVk10A",
-        linkCodigo : "https://github.com/vxt0r/banco-digital/commit/4aabdf0bf5c296200b0d0bd37196f1a02f3eb7ac"
-    },
-    {
-        titulo: "Carrinho de Compras 2",
-        tecnologias: "Laravel e Bootstrap",
-        descricao: "A aplicação simula um e-commerce, o usuário faz um cadastro e login, podendo adicionar ou remover os produtos no seu carrinho e definir detalhes da compra.",
-        linkVideo : "https://www.youtube.com/watch?v=rFioLymjRXo",
-        linkCodigo : "https://github.com/vxt0r/carrinho-compras"
-    },
-    {
-        titulo: "Banco Digital 2",
-        tecnologias: "Laravel e Bootstrap",
-        descricao: "A aplicação simula uma conta em um banco digital, o usuário ao criar um cadastro recebe também uma conta, onde pode realizar saques e depósitos.",
-        linkVideo : "https://www.youtube.com/watch?v=72mhF3BUlOQ",
-        linkCodigo : "https://github.com/vxt0r/banco-digital"
     },
     {
         titulo: "Quadros",
@@ -54,22 +54,7 @@ const projetos = [
         descricao: "Um quiz sobre capitais de países, ao responder uma pergunta, a resposta fica verde quando certa e vermelha quando errada.",
         linkVideo : "https://www.youtube.com/watch?v=iicZOevi9G8",
         linkCodigo : "https://github.com/vxt0r/quiz"
-    },
-    {
-        titulo: "Jogo das Cores",
-        tecnologias: "HTML, CSS e Javascript",
-        descricao: "O usuário deve escolher a cor à que se refere o RGB na parte superior, entre as 4 opções.",
-        linkVideo : "https://www.youtube.com/watch?v=6KJnbTewN5c",
-        linkCodigo : "https://github.com/vxt0r/jogo-das-cores"
-    },
-    {
-        titulo: "Lista de Tarefas",
-        tecnologias: "HTML, CSS e Javascript",
-        descricao: "O usuário pode adicionar, editar ou remover tarefas de uma lista.",
-        linkVideo : "https://www.youtube.com/watch?v=ynqxde20Mug",
-        linkCodigo : "https://github.com/vxt0r/todolist"
-    },
-    
+    }
 ]
 
 const criarItem = projeto =>{
