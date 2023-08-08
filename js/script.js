@@ -1,10 +1,10 @@
 const projetos = [
     {
-        titulo: "Gerenciador de consultas",
-        tecnologias: "PHP, MySQL, HTML e CSS",
-        descricao: "A aplicação simula um sistema de controle de consultas de um médico, com registro de consulta e envio de email aos pacientes.",
-        linkVideo : "https://youtu.be/qY9bIYvgSFw",
-        linkCodigo : "https://github.com/vxt0r/consultas"
+        titulo: "Carrinho de Compras ",
+        tecnologias: "Laravel e Bootstrap",
+        descricao: "A aplicação simula um e-commerce, o usuário faz um cadastro e login, podendo adicionar ou remover os produtos no seu carrinho. Com tela de admin que permite editar os produtos.",
+        linkVideo : "https://www.youtube.com/watch?v=9t7FxTqH_CI",
+        linkCodigo : "https://github.com/vxt0r/carrinho-compras"
     },
     {
         titulo: "Gerador de Relatório",
@@ -14,18 +14,25 @@ const projetos = [
         linkCodigo : "https://github.com/vxt0r/relatorio"
     },
     {
-        titulo: "Carrinho de Compras ",
-        tecnologias: "Laravel e Bootstrap",
-        descricao: "A aplicação simula um e-commerce, o usuário faz um cadastro e login, podendo adicionar ou remover os produtos no seu carrinho e definir detalhes da compra.",
-        linkVideo : "https://www.youtube.com/watch?v=rFioLymjRXo",
-        linkCodigo : "https://github.com/vxt0r/carrinho-compras"
-    },
-    {
         titulo: "Banco Digital ",
         tecnologias: "Laravel e Bootstrap",
-        descricao: "A aplicação simula uma conta em um banco digital, o usuário ao criar um cadastro recebe também uma conta, onde pode realizar saques e depósitos.",
-        linkVideo : "https://www.youtube.com/watch?v=72mhF3BUlOQ",
+        descricao: "A aplicação simula uma conta em um banco digital, o usuário ao criar um cadastro recebe também uma conta, onde pode realizar saques, depósitos e outras ações.",
+        linkVideo : "https://www.youtube.com/watch?v=BpGuW1rblHQ",
         linkCodigo : "https://github.com/vxt0r/banco-digital"
+    },
+    {
+        titulo: "Gerenciador de consultas",
+        tecnologias: "PHP, MySQL, HTML e CSS",
+        descricao: "A aplicação simula um sistema de controle de consultas de um médico, com registro de consulta e envio de email aos pacientes.",
+        linkVideo : "https://youtu.be/qY9bIYvgSFw",
+        linkCodigo : "https://github.com/vxt0r/consultas"
+    },
+    {
+        titulo: "Encurtador de URLs",
+        tecnologias: "PHP, MySQL, HTML e CSS",
+        descricao: "Transforme URLs longas em uma outra mais curta.",
+        linkVideo : "https://www.youtube.com/watch?v=cR7Fzwg5Nng",
+        linkCodigo : "https://github.com/vxt0r/encurtador"
     },
     {
         titulo: "Álbum de Figurinhas Digital",
@@ -33,13 +40,6 @@ const projetos = [
         descricao: "O usuário pode inserir, remover e atualizar informações e imagens sobre algum jogador da NBA.",
         linkVideo: "https://www.youtube.com/watch?v=Mcgfb09kvHw",
         linkCodigo : "https://github.com/vxt0r/figurinhas-digital"
-    },
-    {
-        titulo: "Lista de Tarefas",
-        tecnologias: "Laravel",
-        descricao: "O usuário digita uma tarefa e escolhe os dias da semana em que pretende realizar, assim a tarefa aparece no card referente aos dias escolhidos.",
-        linkVideo : "https://www.youtube.com/watch?v=fCGgK2GL0us",
-        linkCodigo : "https://github.com/vxt0r/lista-tarefas-dias"
     },
     {
         titulo: "Quadros",
