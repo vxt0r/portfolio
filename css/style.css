@@ -166,6 +166,12 @@ p{
   }
 }
 
+@media (max-width:900px){
+  .div-projetos{
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width:800px){
     .sobre, .contato div{
       width: 80%;
@@ -173,12 +179,6 @@ p{
     .texto-sobre{
       margin-bottom: 1em;
     }
-}
-
-@media (max-width:750px){
-  .div-projetos{
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width:620px){
