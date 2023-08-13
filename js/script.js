@@ -30,7 +30,7 @@ const projetos = [
     {
         titulo: "Encurtador de URLs",
         tecnologias: "PHP, MySQL, HTML e CSS",
-        descricao: "Transforme URLs longas em uma outra mais curta.",
+        descricao: "Transforme uma URL longa em outra mais curta.",
         linkVideo : "https://www.youtube.com/watch?v=cR7Fzwg5Nng",
         linkCodigo : "https://github.com/vxt0r/encurtador"
     },
@@ -61,17 +61,17 @@ const criarItem = projeto =>{
     return `
         <div class="item">
             <div class="item-info">
-                <p>${projeto.titulo}</p><br><br>
-                <p>${projeto.tecnologias}</p><br><br>
-                <p><a href="${projeto.linkVideo}" target="_blank" rel="noopener noreferrer">Veja um vídeo sobre esse projeto</a></p>
+                <p>${projeto.titulo}</p>
+                <p>${projeto.tecnologias}</p>
+                <p><a href="${projeto.linkVideo}" target="_blank" rel="noopener noreferrer">Vídeo Demonstrativo</a></p>
+                <p><a href="${projeto.linkCodigo}" target="_blank" rel="noopener noreferrer">Código</a></p>
             </div>
 
             <div class="descricao">
-                <span>Descrição</span><br><br>
-                <span>
+                <span>Descrição</span>
+                <p class="texto-descricao">
                     ${projeto.descricao}
-                    <a href="${projeto.linkCodigo}" target="_blank" rel="noopener noreferrer">(Código)</a>
-                </span>
+                </p>
             </div>
         </div>`
 }
